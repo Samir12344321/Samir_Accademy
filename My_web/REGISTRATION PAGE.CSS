@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'poppins', sans-serif;
+}
+section{
+    position: relative;
+    top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: rgb(116, 209, 93);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+}
+.second {
+    position: relative;
+    width: 60vi;
+    height: 100vi;
+    background: rgb(24, 165, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-top-left-radius: 10px;
+   
+    border-bottom-right-radius: 10px;
+    border-color: rgb(65, 8, 224);
+}
+.input-box-gen {
+    position:relative;
+    margin: 2vi 0;
+    width: 25vi;
+    
+
+}
+
+.input-box {
+    position:relative;
+    margin: 2vi 0;
+    width: 30vi;
+    border-bottom: 2px solid#050000;
+
+}
+.input-box-gen label {
+    position: absolute;
+    top: 40%;
+    left: 0vi;
+    transform: translate(-50);
+    color: #0bf436;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-box label {
+    position: absolute;
+    top: 40%;
+    left: 0vi;
+    transform: translate(-50);
+    color: #0bf436;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+
+
+input:focus~label,
+input:valid~:label {
+    top: -6vi;
+}
+
+.input-box input {
+    width: 100%;
+    height: 3vi;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 5vi 0 2vi;
+    color: rgb(120, 83, 19);
+}
+.back {
+    background-color: rgb(14, 192, 47);
+    height: 2vi;
+    width: 5vi;
+    position: absolute;
+    left: 52%;
+    text-align: center;
+}
+
+
+.back a{
+    color: rgb(1, 5, 0);
+    text-decoration: none;
+    
+}
+.reset input{
+    background-color: #0bf436;
+    height: 2vi;
+    width: 5vi;
+    text-decoration: aqua;
+    position: absolute;
+    left: 40%;
+}
+
+button{
+    width: 100%;
+    height: 30px;
+    border-radius: 30px;
+    background: rgb(11, 101, 179);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+button a{
+    text-decoration: none;
+    color: rgb(81, 13, 240);
+    
+}
